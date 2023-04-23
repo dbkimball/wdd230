@@ -1,0 +1,36 @@
+body{
+    max-width: 500px auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+header, nav, main, footer{
+    margin: 1.25rem auto;
+    max-width: 500px;
+}
+header, footer{
+    background-color: rgb(34, 156, 238);
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: -5px 5px 10px 10px rgb(228, 217, 217);
+}
+header{
+    padding: 1.5rem;
+}
+img{
+    float: left;
+    max-width: 110px;
+    max-height: 110px;
+    border: 1px;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 2em;
+    text-shadow: 2px 2px gray;
+}
+footer p{
+    color: yellow;
+    margin-top: -10px;
+}
