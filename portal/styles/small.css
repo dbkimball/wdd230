@@ -4,9 +4,8 @@ body{
     line-height: 1.5;
 }
 header{
-    display: grid;
-    grid-template-columns: 20% 80%;
     padding: 1.5rem;
+    font-family: 'Rock Salt';
 }
 header, nav, main, footer{
     margin: 1.25rem auto;
@@ -17,24 +16,27 @@ header, footer{
     color: white;
     font-weight: bold;
     text-align: center;
-    border-radius: 15px;
     box-shadow: -5px 5px 10px 10px rgb(228, 217, 217);
 }
 img{
-    float: left;
-    max-width: 110px;
-    max-height: 110px;
+    width: 110px;
+    height: auto;
     border: 1px;
 }
 h1{
-    font-size: 2.5em;
+    font-size: 1em;
+}
+ul{
+    font-family: 'Nunito';
 }
 h2{
-    font-size: 2em;
+    font-size: 1em;
     text-shadow: 2px 2px gray;
+    font-family: 'Poppins';
 }
 footer h3{
     color: yellow;
-    margin-top: -10px;
-    font-size:medium;
+    margin-top: -8px;
+    font-size:small;
+    font-family: 'Poppins';
 }
