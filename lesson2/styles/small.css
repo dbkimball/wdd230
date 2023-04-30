@@ -22,7 +22,8 @@ h2{
     font-family: 'Rock Salt';
 }
 main{
-    display: grid; 1fr;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 section{
     margin: 5%;
