@@ -1,0 +1,47 @@
+body{
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+header{
+    padding: 1.5rem;
+    font-family: 'Poppins';
+}
+header, main, footer{
+    margin: 1.25rem auto;
+    max-width: 500px;
+    padding: 1%;
+}
+header, footer{
+    background-color: rgb(6, 99, 161);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+img{
+    max-width: 300px;
+    height: auto;
+    border: 1px;
+}
+h1{
+    font-size: 1em;
+}
+h2{
+    font-size: .75em;
+    font-family: 'Nunito';
+}
+h3{
+    font-size: 1em;
+    background-color: rgb(6, 99, 161);
+    color: white;
+    border-radius: 2%;
+}
+section{
+    border-radius: 10%;
+    padding: 2.5%;
+}
+footer{
+    color: white;
+    font-size:small;
+    font-family: 'Nunito';
+}

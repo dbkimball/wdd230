@@ -1,0 +1,25 @@
+@media only screen and (min-width: 1200px) and (max-width: 1700px){
+    
+    h1{
+        font-size: 4em;
+    }
+    h2{
+        font-size: 2em;
+    }
+    header, main, footer{
+        max-width: 1700px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    h3{
+        font-size: 2em;
+        
+    }
+   
+    footer{
+        font-size: 1em;
+    }
+    
+}
