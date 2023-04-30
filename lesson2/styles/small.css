@@ -5,12 +5,10 @@ body{
 }
 header{
     padding: 1.5rem;
-    font-family: 'Poppins';
 }
 header, main, footer{
     margin: 1.25rem auto;
     max-width: 500px;
-    padding: 1%;
     align-items: center;
 }
 header, footer{
@@ -18,28 +16,41 @@ header, footer{
     color: white;
     font-weight: bold;
     text-align: center;
-}
-img{
-    max-width: 300px;
-    height: auto;
-    border: 1px;
+    
 }
 h1{
     font-size: 1em;
+    font-family: 'Poppins';
 }
 h2{
-    font-size: .75em;
-    font-family: 'Nunito';
+    font-size: small;
+    font-family: 'Rock Salt';
+}
+section{
+    margin: 5%;
+}
+.design1, .design2, .design3{
+    background-color: rgb(231, 229, 229);
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border: gray;
+    border-style: solid;
+    
+}
+
+img{
+    max-width: 340px;
+    max-height: 600px;
+    border: 1px;
 }
 h3{
     font-size: 1em;
-    background-color: rgb(6, 99, 161);
     color: white;
-    border-radius: 2%;
+    background-color: rgb(6, 99, 161);
 }
-section{
-    border-radius: 10%;
-    padding: 2.5%;
+
+p{
+    font-family: 'Poppins';
 }
 footer{
     color: white;
