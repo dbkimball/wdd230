@@ -4,7 +4,7 @@
         font-size: 4em;
     }
     h2{
-        font-size: 2em;
+        font-size: 3em;
     }
     header, main, footer{
         max-width: 1700px;
@@ -16,6 +16,11 @@
     h3{
         font-size: 2em;
         
+    }
+    img{
+        max-width: auto;
+        height: auto;
+        border: 1px;
     }
    
     footer{
