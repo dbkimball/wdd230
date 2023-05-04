@@ -44,9 +44,16 @@ h3{
     color: white;
     background-color: rgb(6, 99, 161);
     margin-top: 0%;
+    padding-left: 1%;
+}
+h4{
+    padding-left: 5%;
+    padding-right: 5%;
 }
 p{
     font-family: 'Poppins';
+    padding-left: 5%;
+    padding-right: 5%;
 }
 footer{
     color: white;
