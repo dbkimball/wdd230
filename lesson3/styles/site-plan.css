@@ -1,7 +1,7 @@
 :root {
   --primary-color: #8ecae6   ;
   --secondary-color: #034363 ;
-  --accent1-color: #ffc533;
+  --accent1-color: tan;
   --accent2-color: #ff8d0a;
 
   
@@ -14,8 +14,8 @@
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #034363  ;
   --nav-link-color: #ffffff;
-  --nav-background-color: #ffc533;
-  --nav-hover-link-color: white;
+  --nav-background-color: tan;
+  --nav-hover-link-color: #8ecae6;
   --nav-hover-background-color: #ff8d0a;
 }
 
