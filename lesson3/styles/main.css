@@ -52,7 +52,13 @@ h4{
 p{
     font-size: 1rem;
     font-family: 'Poppins';
-    padding: 5%;
+    margin-left: 5%;
+    padding: 1%;
+}
+li{
+  font-size: 1rem;
+  font-family: 'Nunito';
+  margin-left: 5%;
 }
 footer{
     color: white;
@@ -80,15 +86,15 @@ footer{
   }
   .secondary {
     background-color: #8ecae6;
-    color: white;
+    color: black;
   }
   .accent1 {
     background-color: tan;
-    color: white;
+    color: black;
   }
   .accent2{
     background-color: #ff8d0a;
-    color: white;
+    color: black;
   }
   p.colored {
     font-family: 'Poppins';
