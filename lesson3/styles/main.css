@@ -1,0 +1,103 @@
+body{
+    margin: 0 auto;
+    line-height: 1.5;
+}
+nav{
+    padding: 1.5rem;
+    background-color: tan;
+}
+header, nav, main, footer{
+    margin: 1.25rem auto;
+    max-width: 500px;
+}
+header, footer{
+    background-color: #034363;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+a{
+    font-family: 'Nunito';
+    padding: 1%;
+}
+nav a:hover{
+	background-color:#ff8d0a;
+    color: white;
+}
+img{
+    width: 110px;
+    height: auto;
+    border: 1px;
+}
+h1{
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+}
+h2{
+    font-size: 1rem;
+    font-family: 'Rock Salt';
+    text-align: center;
+}
+h3{
+    font-family: 'Rock Salt';
+    text-align: center;
+}
+h4{
+    font-size: 1rem;
+    font-family: 'Poppins';
+    text-align: center;
+}
+p{
+    font-size: 1rem;
+    font-family: 'Poppins';
+    padding: 5%;
+}
+footer{
+    color: white;
+    font-size:small;
+    font-family: 'Nunito';
+}
+
+/* design CSS */
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  .primary {
+    background-color: #034363;
+  }
+  .secondary {
+    background-color: #8ecae6;
+  }
+  .accent1 {
+    background-color: tan;
+  }
+  .accent2{
+    background-color: #ff8d0a;
+  }
+  p.colored {
+    font-family: 'Poppins';
+    background-color: #8ecae6;
+    color: white;
+  }
+  h5{
+    font-size: 2rem;
+    font-family: 'Nunito';
+    text-align: center;
+  }
+  h6{
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    text-align: center;
+  }

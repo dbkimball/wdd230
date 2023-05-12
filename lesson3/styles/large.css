@@ -1,0 +1,35 @@
+@media only screen and (min-width: 1200px) and (max-width: 2500px){
+    header, nav, main, footer{
+        max-width: 2500px;
+    }
+    img{
+        float: left;
+        width: 250px;
+        height: auto;
+    }
+    a{
+        font-size: 2rem;
+    }
+    h1{
+        font-size: 4em;
+    }
+    h2{
+        font-size: 3em;
+    }
+    h3{
+        font-size: 3rem;
+    }
+    h4{
+        font-size: 3rem;
+    }
+    li{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 2rem;
+    } 
+    footer{
+        font-size: 1em;
+    }
+    
+}
