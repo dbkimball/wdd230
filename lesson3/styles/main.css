@@ -76,15 +76,19 @@ footer{
   }
   .primary {
     background-color: #034363;
+    color: white;
   }
   .secondary {
     background-color: #8ecae6;
+    color: white;
   }
   .accent1 {
     background-color: tan;
+    color: white;
   }
   .accent2{
     background-color: #ff8d0a;
+    color: white;
   }
   p.colored {
     font-family: 'Poppins';
