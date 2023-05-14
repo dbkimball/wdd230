@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1200px) and (min-width: 600px){
+    header{
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    header, nav, main, footer{
+        max-width: 1200px;
+    }
+    img{
+        float: left;
+        border: 10px;
+        width: 150px;
+        height: auto;
+    }
+    a{
+        font-size: 1.5rem;
+    }
+    h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    h4{
+        font-size: 2rem;
+    }
+    li{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1.5rem;
+        padding: 0%;
+    }
+    footer{
+        font-size: 1em;
+    }
+     
+}
