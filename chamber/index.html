@@ -18,8 +18,13 @@
   <header>
     <img src="images/logo.jpg" alt="San Tan Valley Chamber of Commerce Logo">
     <h1>San Tan Valley Chamber of Commerce</h1>
+    <div class = 'social'>
+        <a href="https://www.facebook.com/" target="_blank"></a>
+        <a href="https://www.linkedin.com/" target="_blank"></a>
+    </div>
     <nav id = 'primaryNav'>
         <ul>
+        <li><a href="#" onclick="toggleMenu()">&#9776; MENU</a></li>
         <li><a href="index.html">HOME</a></li>
         <li><a href="#">DISCOVER</a></li>
         <li><a href="#">DIRECTORY</a></li>
@@ -52,12 +57,15 @@
         <div class = 'spotlight3'>
             <p>Spotlight 3</p>
         </div>
+        <div class = 'medium-display' id ='JOIN'>
+            <a href="#">JOIN</a>
+        </div>
     </main>
     <footer>
     &copy; <span id="year"></span> | Deena Baldwin | Last Updated: <span id="currentdate"></span>  
     </footer>
     <script src = "scripts/main.js"></script>
-    <script src = "scripts/currentTime"></script>
+    
 </body>
 
 </html>
