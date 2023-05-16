@@ -5,7 +5,7 @@
     <meta charset = "UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <title>Home- Deena Baldwin</title>
-    <meta name="description" content="This page contains appropriate site name, the site purpose and a simple logo that was created for San Tan Valley Chamber of Commerce.">
+    <meta name="description" content="Home page for Chamber of Commerce website.  Include header, navigation and footer.">
     
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -18,20 +18,46 @@
   <header>
     <img src="images/logo.jpg" alt="San Tan Valley Chamber of Commerce Logo">
     <h1>San Tan Valley Chamber of Commerce</h1>
-</header>
-    <nav>
-        <a href="index.html">HOME</a>
-        <a href="design.html">DESIGN</a>
-        <a href="target-audience.html">TARGET AUDIENCE</a>
+    <nav id = 'primaryNav'>
+        <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#">DISCOVER</a></li>
+        <li><a href="#">DIRECTORY</a></li>
+        <li><a href="#">JOIN</a></li>
+        <li><a href="#">CONTACT</a></li>
+        </ul>
     </nav>
-    
-    <main>
+    <span id = 'currentTime'></span>
+</header>
         
+    <main>
+        <section id = 'heroBanner'>
+            <p>Hero with site name and call to action</p>
+        </section>
+        <section id = 'event'>
+            <p>Event</p>
+        </section>
+        <section id = 'weather'>
+            <p>Weather</p>
+        </section>
+        <section id = 'news'>
+            <p>News Release</p>
+        </section>
+        <div class = 'spotlight1'>
+            <p>Spotlight 1</p>
+        </div>
+        <div class = 'spotlight2'>
+            <p>Spotlight 2</p>
+        </div>
+        <div class = 'spotlight3'>
+            <p>Spotlight 3</p>
+        </div>
     </main>
     <footer>
     &copy; <span id="year"></span> | Deena Baldwin | Last Updated: <span id="currentdate"></span>  
     </footer>
     <script src = "scripts/main.js"></script>
+    <script src = "scripts/currentTime"></script>
 </body>
 
 </html>
