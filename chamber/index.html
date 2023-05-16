@@ -15,16 +15,24 @@
 </head>
 
 <body>
-  <header>
-    <img src="images/logo.jpg" alt="San Tan Valley Chamber of Commerce Logo">
-    <h1>San Tan Valley Chamber of Commerce</h1>
-    <div class = 'social'>
-        <a href="https://www.facebook.com/" target="_blank"></a>
-        <a href="https://www.linkedin.com/" target="_blank"></a>
+  <header class = 'banner'>
+    <div class = 'brand'>
+        <img class='logo' src="images/logo.jpg" alt="San Tan Valley Chamber of Commerce Logo">
+    </div>
+    <section class = 'company'>
+        <h1>San Tan Valley Chamber of Commerce</h1>
+    </section>
+    <div class = 'navigation'>
+        <div class = 'social'>
+            <a href="https://www.facebook.com/" target="_blank"></a>
+                <img src="images/facebook.png" alt="facebook logo">
+            <a href="https://www.linkedin.com/" target="_blank"></a>
+                <img src="images/linkedin.png" alt="linkedin logo">
+        </div>
+        <button id = "hamburgerBtn">&#9776;</button>
     </div>
     <nav id = 'primaryNav'>
         <ul>
-        <li><a href="#" onclick="toggleMenu()">&#9776; MENU</a></li>
         <li><a href="index.html">HOME</a></li>
         <li><a href="#">DISCOVER</a></li>
         <li><a href="#">DIRECTORY</a></li>
