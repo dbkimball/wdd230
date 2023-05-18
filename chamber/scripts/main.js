@@ -6,9 +6,8 @@ const date = new Date(document.lastModified);
 document.getElementById("currentdatetime").innerHTML = text;
 
 let date1 = document.getElementById("currentDate");
-
 const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en", {dateStyle: "full"}).format(now);
+const fulldate = new Intl.DateTimeFormat("en-US", {dateStyle: "full"}).format(now);
 date1.innerHTML = fulldate;
 
 function toggleMenu(){
@@ -17,21 +16,3 @@ function toggleMenu(){
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
-
-/*function toggleMenu() {
-    document.getElementById("primaryNav").classList.toggle("open");
-    document.getElementById("hamburgerBtn").classList.toggle("open");
-}
-
-const x = document.getElementById('hamburgerBtn');
-x.onclick = toggleMenu;
-
-/*const hamburgerBtn = document.querySelector('#hamburgerBtn');
-const primaryNav = document.querySelector('primaryNav');
-hamburgerBtn.addEventListener('click', () => {
-    primaryNav.classList.toggle('responsive');
-});
-
-/*function toggleMenu() {
-    document.getElementById('primaryNav')[0].classList.toggle('responsive');
-}*/
