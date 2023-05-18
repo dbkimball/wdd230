@@ -3,9 +3,9 @@ document.querySelector('#year').textContent = currentYear;
 
 let text = document.lastModified;
 const date = new Date(document.lastModified);
-document.getElementById("currentdate").innerHTML = text;
+document.getElementById("currentdatetime").innerHTML = text;
 
-let date1 = document.getElementById("currentTime");
+let date1 = document.getElementById("currentDate");
 
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en", {dateStyle: "full"}).format(now);
