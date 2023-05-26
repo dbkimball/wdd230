@@ -1,6 +1,9 @@
-@media only screen and (min-width: 1200px) and (max-width: 2500px){
-    header, nav, main, footer{
-        max-width: 2500px;
+@media only screen and (min-width: 1200px) and (max-width: 2200px){
+    header, nav, footer{
+        max-width: 1600px;
+    }
+    main{
+        max-width: 1200px;
     }
     img{
         float: left;
@@ -24,6 +27,12 @@
     }
     li{
         font-size: 2rem;
+        display: inline;
+    }
+    .scenarios li{
+        display: flex;
+        margin-left: 2%;
+        font-family: 'Poppins';
     }
     p{
         font-size: 2rem;
