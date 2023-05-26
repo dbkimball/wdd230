@@ -61,6 +61,11 @@ li{
   margin-left: 5%;
   display: flex;
 }
+.scenarios li{
+  display: flex;
+  margin-left: 2%;
+  font-family: 'Poppins';
+}
 footer{
     color: white;
     font-size:small;

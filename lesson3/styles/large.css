@@ -29,11 +29,6 @@
         font-size: 2rem;
         display: inline;
     }
-    .scenarios li{
-        display: flex;
-        margin-left: 2%;
-        font-family: 'Poppins';
-    }
     p{
         font-size: 2rem;
         padding: 0%;
