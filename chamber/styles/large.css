@@ -57,6 +57,10 @@
         grid-column: 1/2;
         grid-row: 2/3;
     }
+    .weather div{
+        display: inline;
+    }
+    
     #join {
         grid-column: 1/2;
         grid-row: 3/4;
@@ -93,4 +97,5 @@
         justify-content: center;
         gap: 5px;
     }
+    
 }

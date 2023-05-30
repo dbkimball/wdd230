@@ -21,6 +21,21 @@ function toggleMenu(){
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
+//Banner displays only on Mondays or Tuesdays
+const options = {
+    weekday: "long", 
+    day: "numeric", 
+    month: "long", 
+    year: "numeric",
+};
+let weekDay = now.getDay();
+let message;
+if (weekDay == 1 || weekDay == 2) {
+  message = document.getElementById("hidden").innerHTML;
+} else {
+  message = document.getElementById("hidden").remove();
+}
+
 // let date1 = document.getElementById("currentDate");
 // const now = new Date();
 // const fulldate = new Intl.DateTimeFormat("en-US", {dateStyle: "full"}).format(now);

@@ -1,5 +1,8 @@
-.noDisplay {
-    display: none;
+.hidden {
+    /* display: none; */
+    background-color: rgb(212, 7, 7);
+    font-weight:bolder;
+    padding: 1%;
 }
 body {
     max-width: 1200px;
@@ -107,40 +110,54 @@ main section p, main div p {
 #hero-banner h2{
     position: absolute;
     color: white;
-    margin-left: 30%;
     font-size: 1.5rem;
+    margin-left: 3%;
 }
 #hero-banner a{
     background-color: tan;
     color: black;
-    position: absolute;
     padding: 2%;
     border-radius: 10px;
+    position: absolute;
     bottom: 15%;
-    right: 10%;
+    right: 20%;
 }
 #hero-banner a:hover{
     background-color: #ff8d0a;
     color:black;
 }
-
+.event {
+    box-sizing: border-box;
+    padding: 2%;
+}
+.event h3{
+    text-align: center;
+    color: black;
+    font-family: 'Poppins';
+}
 .weather {
     box-sizing: border-box;
     padding: 2%;
 }
+.weather h3{
+    text-align: center;
+    color: black;
+    font-family: 'Poppins';
+}
 .weather div {
-    height: 30%;
-    width: 80%;
     border: none;
     align-items: center;
     justify-content: center;
     display: flex;
 }
-.weather div p {
-    font-size: 150%;
+.news {
+    box-sizing: border-box;
+    padding: 2%;
 }
-.weather p {
-    margin: 0;
+.news h3{
+    text-align: center;
+    color: black;
+    font-family: 'Poppins';
 }
 .spotlight {
     background-color: white;
