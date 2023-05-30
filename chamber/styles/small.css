@@ -1,7 +1,7 @@
 .hidden {
     /* display: none; */
-    background-color: rgb(212, 7, 7);
-    font-weight:bolder;
+    background-color: rgb(243, 146, 146);
+    font-weight: bolder;
     padding: 1%;
 }
 body {
@@ -110,6 +110,7 @@ main section p, main div p {
 #hero-banner h2{
     position: absolute;
     color: white;
+    font-weight: bolder;
     font-size: 1.5rem;
     margin-left: 3%;
 }
