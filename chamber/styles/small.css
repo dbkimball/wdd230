@@ -111,8 +111,8 @@ main section p, main div p {
     position: absolute;
     color: white;
     font-weight: bolder;
-    font-size: 1.5rem;
-    margin-left: 3%;
+    font-size: 2rem;
+    margin-left: 5%;
 }
 #hero-banner a{
     background-color: tan;
