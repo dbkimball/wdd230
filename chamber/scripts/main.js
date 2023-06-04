@@ -5,7 +5,7 @@ document.querySelector('#year').textContent = currentYear;
 //Last Updated Date/time
 let text = document.lastModified;
 const date = new Date(document.lastModified);
-document.getElementById("currentdatetime").innerHTML = text;
+document.getElementById('currentdatetime').innerHTML = text;
 
 //Date Banner in Header
 const today = new Date();
@@ -20,17 +20,13 @@ const today = new Date();
 
 //Hamburger Button      
 function toggleMenu(){
-    document.getElementById("primaryNav").classList.toggle("open");
+    document.getElementById('primaryNav').classList.toggle('open');
 }
-const x = document.getElementById("hamburgerBtn");
+const x = document.getElementById('hamburgerBtn');
 x.onclick = toggleMenu;
 
-//Monday/Tuesday ONLY id = Banner
-if (now.getDay() < 3 && now.getDay() > 0){
-    document.getElementById("banner").classList.toggle("open");
+//Monday and Tuesday ONLY
+// const day = date.getDay();
+if (date.getDay() < 3 && date.getDay() > 0){
+    document.getElementById('banner').classList.toggle('active');
 }
-
-// let date1 = document.getElementById("currentDate");
-// const now = new Date();
-// const fulldate = new Intl.DateTimeFormat("en-US", {dateStyle: "full"}).format(now);
-// date1.innerHTML = fulldate;
