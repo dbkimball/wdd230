@@ -7,13 +7,13 @@ h1 {
     text-align: center;
     color: black;
 }
-
 img{
     width: 300px;
     height: 400px;
     padding: 10px;
+    background-color:darkslateblue;    
 }
 img[data-src]{
-    filter: blur(0em);
+    filter: blur(.5em);
     transition: filter 2s;
 }
