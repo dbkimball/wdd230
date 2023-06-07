@@ -13,7 +13,7 @@ img{
     padding: 10px;
     background-color:darkslateblue;    
 }
-/* img[data-src]{
+img[data-src]{
     filter: blur(.5em);
     transition: filter 2s;
-} */
+}
