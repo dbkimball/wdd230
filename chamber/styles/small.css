@@ -2,10 +2,12 @@
     display: none;
 }
 #banner {
-    display: block;
     background-color: rgb(243, 146, 146);
     font-weight: bolder;
     padding: 1%;
+}
+.visible{
+    display: block;
 }
 body {
     max-width: 1200px;

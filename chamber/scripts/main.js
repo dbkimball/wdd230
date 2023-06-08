@@ -28,5 +28,5 @@ x.onclick = toggleMenu;
 //Monday and Tuesday ONLY
 // const day = date.getDay();
 if (date.getDay() < 3 && date.getDay() > 0){
-    document.getElementById("banner").classList.toggle("display");
+    document.getElementById("banner").className = "visible";
 }
