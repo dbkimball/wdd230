@@ -2,9 +2,13 @@
 const currentYear = 2023;
 document.querySelector('#year').textContent = currentYear;
 
+const currDate = Date.now();
+const dt = new Date(currDate);
+const dayValue = dt.getDay();
+
 //Last Updated Date/time
 let text = document.lastModified;
-const date = new Date(document.lastModified);
+let modifiedDate = new Date(text);
 document.getElementById('currentdatetime').innerHTML = text;
 
 //Date Banner in Header
@@ -25,8 +29,8 @@ function toggleMenu(){
 const x = document.getElementById('hamburgerBtn');
 x.onclick = toggleMenu;
 
-//Monday and Tuesday ONLY
-// const day = date.getDay();
-if (date.getDay() < 3 && date.getDay() > 0){
+//Monday and Tuesday ONLY banner
+
+if (dayValue < 3 && dayValue > 0){
     document.getElementById("banner").className = "visible";
 }

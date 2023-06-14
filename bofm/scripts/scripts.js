@@ -6,8 +6,8 @@ const date = new Date(document.lastModified);
 document.getElementById("currentdate").innerHTML = text;
 
 const input = document.getElementById('chapter');
-const addButton = document.getElementById('add-button');
-const chapterList = document.getElementById('chapter-list');
+const addButton = document.getElementById('add');
+const chapterList = document.getElementById('chapterList');
 
 addButton.addEventListener('click', function() {
   const chapter = input.value.trim();
