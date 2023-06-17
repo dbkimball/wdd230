@@ -86,10 +86,6 @@
         display: block;
     }
 
-    /*Discover Page*/
-    .discover-img:hover{
-        opacity: 0.5;
-    }
     
     /*footer*/
     footer {
