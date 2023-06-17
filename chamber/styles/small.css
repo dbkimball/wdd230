@@ -231,3 +231,6 @@ hr {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto;
 }
+div.visitDays {
+    background-color: #ff8d0a;
+}
