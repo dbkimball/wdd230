@@ -146,6 +146,10 @@ main section p, main div p {
     box-sizing: border-box;
     padding: 2%;
 }
+#weatherIcon{
+    max-width: 100px;
+    max-height: 100px;
+}
 .weather h3{
     text-align: center;
     color: black;

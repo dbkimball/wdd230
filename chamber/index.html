@@ -55,8 +55,11 @@
             <h2>Welcome to San Tan Valley</h2>
             <a href="join.html">Join Us</a>
             <picture>
+                <source media="(min-width:850px)" srcset="images/large1400.jpg">
+                <source media="(min-width:425px)" srcset="images/medium850.jpg">
+                <source media="(min-width:200px)" srcset="images/small425.jpg">
                 <img src="images/wdd230-org.jpg" alt="large size heavy image">
-                <!-- <img src="images/arizona-desert.jpg" alt="Arizona Desert at Sunset"> -->
+            <!-- <img src="images/arizona-desert.jpg" alt="Arizona Desert at Sunset"> -->
             </picture> 
         </section>
         <section class="event">
@@ -67,14 +70,14 @@
             <h3>Weather</h3>
             <div>
                 <picture>
-                    <img id="weatherIcon" src="#" alt="Weather Icon">
+                    <img id="weatherIcon" src="images/weathericon.webp" alt="Weather Icon">
                 </picture>
-                <p><span id="temperature">Placeholder</span>°F</p>
+                <p><span id="temperature">50</span>°F</p>
             </div>
                 <h3><span id="condition">Weather Condition</span></h3>
             <hr>
-            <p>Wind Speed: <span id="windSpeed"></span>mph</p>
-            <p>Wind Chill: <span id="windChill"></span></p> 
+            <p>Wind Speed: <span id="windSpeed">5</span>mph</p>
+            <p>Wind Chill: <span id="windChill"></span>°F</p>
         </section>
         <section class="news">
             <h3>Latest News</h3>
@@ -121,5 +124,6 @@
         </div>
     </footer>
     <script src = "scripts/main.js"></script>
+    <script src = "scripts/windchill.js"></script>
 </body>
 </html>
