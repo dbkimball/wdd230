@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Join - Deena Baldwin</title>
+    <meta name="description" content="Join Page for Chamber of Commerce website.">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Poppins&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <div class="hidden" id="banner">    
+        <span>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>
+    </div>
+    <header>
+        <div class="brand">
+            <a href="index.html">
+                <img class="logo" src="images/logo.webp" alt="San Tan Valley Chamber of Commerce Logo">
+            </a>
+            <section class="company">
+                <h1>San Tan Valley Chamber of Commerce</h1>
+            </section>
+        </div>
+        <div class="navigation">
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="images/facebook.png" alt="facebook">
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="images/linkedin.png" alt="linkedin">
+                </a>
+            </div>
+            <button id="hamburgerBtn">&#9776;</button>
+        </div>
+        <nav id="primaryNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <span id="currentDate"></span>
+    </header>
+    <main class="join-grid">
+        <h1>Membership Form</h1>
+        <form method="get" action="thankyou.html">
+            <div>
+            <label class="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div>
+            <label class="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div>
+            <label class="position-title">Position Title:</label>
+            <input type="text" id="position-title" name="position-title" pattern="[A-Za-z\s\-]{7,}">
+            </div>
+            <div>
+            <label class="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="example@example.com">
+            </div>
+            <div>
+            <label class = "cell-phone">Cell Phone:</label>
+            <input type="tel" id="cell-phone" name="cell-phone" required>
+            </div>
+            <div>
+            <label class="business-name">Business Name/Title:</label>
+            <input type="text" id="business-name" name="business-name" required>
+            </div>
+            <div>
+            <label class="membership-level">Membership Level:</label>
+            <select id="membership-level" name="membership-level">
+                <option value="NP Membership">NP Membership</option>
+                <option value="Bronze Membership">Bronze Membership</option>
+                <option value="Silver Membership">Silver Membership</option>
+                <option value="Gold Membership">Gold Membership</option>
+            </select>
+            </div>
+            <div>
+            <label class="business-description">Business Description:</label>
+            <textarea id="business-description" name="business-description"></textarea>
+            </div>
+            <input type="hidden" name="form-loaded-time" value="">
+            <div>
+            <input type="submit" value="Apply For Membership">
+            </div>
+        </form>
+
+    </main> 
+    <footer>
+        <div class="section1">
+            <img class="logo-image" src="images/logo.webp" alt="San Tan Valley Chamber of Commerce Logo">
+            <section class="company">
+                <h2 class="bold">San Tan Valley Chamber of Commerce</h2>
+                <h3>42526 N. Ironwood Road, San Tan Valley, AZ 85140</h3>           
+            </section>
+        </div>
+        <div class = "section2">
+            <p>info@santanvalleychamber.org</p>
+            <p>480-518-1234</p>
+            <a href="https://goo.gl/maps/YNCGR5Aet2mVxvwY8">📍 Location</a>
+        </div>
+        <hr>
+        <div class="section2">
+            <section>
+                <p>&copy; <span id="year"></span> | Deena Baldwin | WDD230 Project | Last Updated: <span id="currentdatetime"></span>
+                </p>    
+            </section>
+        </div>
+    </footer>
+    <script src = "scripts/main.js"></script>
+</body>
+</html>
