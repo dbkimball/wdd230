@@ -1,5 +1,7 @@
 table {
     border-collapse: collapse;
+    width: 500px;
+    height: 100px;
     margin: auto;
 }
 caption {
