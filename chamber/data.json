@@ -4,72 +4,72 @@
         "name": "San Tan Livestock",
         "address": "2769 Combs Rd, San Tan Valley, AZ 85140",
         "phone": "(480) 783-3430",
-        "website": "santanlivestock@gmail.com",
-        "membershipLevel": "basic",
+        "websiteURL": "santanlivestock@gmail.com",
+        "membershipLevel": "Bronze",
         "info": "Feed | Ranch Supplies | Pet Supplies"
       },
       {
         "name": "The UPS Store",
         "address": "530 E Hunt Hwy Ste 103, San Tan Valley, AZ 85143",
         "phone": "(480) 889-1568",
-        "website": "https://theupsstore.com/",
-        "membershipLevel": "basic",
+        "websiteURL": "https://theupsstore.com/",
+        "membershipLevel": "Gold",
         "info": "Packing | Shipping | Notary | Mailbox Services"
       },
       {
         "name": "Combs Performing Arts Center",
         "address": "2505 East Germann Road, San Tan Valley 85140",
         "phone": "(480) 882-3540 ext 7591",
-        "website": "https://www.jocombs.org/Page/517",
-        "membershipLevel": "basic",
+        "websiteURL": "https://www.jocombs.org/Page/517",
+        "membershipLevel": "Silver",
         "info": "Arts | Event Products or Services"
       },
       {
         "name": "Sally Beauty",
         "address": "1753 W. Hunt Hwy. #102, San Tan Valley 85143",
         "phone": "480-783-3530",
-        "website": "",
-        "membershipLevel": "basic",
+        "websiteURL": "",
+        "membershipLevel": "Bronze",
         "info": "Retail | Hair & Beauty"
       },
       {
         "name": "Mediacom",
         "address": "1435 Old West Highway, Apache Junction 85119",
         "phone": "(855) 633-4226",
-        "website": "https://mediacomcable.com/",
-        "membershipLevel": "basic",
+        "websiteURL": "https://mediacomcable.com/",
+        "membershipLevel": "Gold",
         "info": "Internet Services | Phone Services"
       },
       {
         "name": "LA Fitness",
         "address": "40885 North Ironwood Road, San Tan Valley 85140",
         "phone": "480-448-4744",
-        "website": "https://www.lafitness.com/",
-        "membershipLevel": "basic",
+        "websiteURL": "https://www.lafitness.com/",
+        "membershipLevel": "Gold",
         "info": "Exercise | Physical Fitness"
       },
       {
         "name": "Fry's Marketplace",
         "address": "155 East Combs Road, San Tan Valley 85140",
         "phone": "480-474-6600",
-        "website": "https://www.frysfood.com/",
-        "membershipLevel": "basic",
+        "websiteURL": "https://www.frysfood.com/",
+        "membershipLevel": "Gold",
         "info": "Groceries | Pharmacy | Fuel"
       },
       {
         "name": "The Joint",
         "address": "40815 N Ironwood Dr Suite 101, San Tan Valley, AZ 85140",
         "phone": "480-933-0248",
-        "website": "https://www.thejoint.com/",
-        "membershipLevel": "basic",
+        "websiteURL": "https://www.thejoint.com/",
+        "membershipLevel": "Silver",
         "info": "Chiropractor | Health & Wellness"
       },
       {
         "name": "Rosati's Pizza",
         "address": "287 East Hunt Highway, San Tan Valley 85143",
         "phone": "480-677-4000",
-        "website": "https://www.rosatispizza.com/",
-        "membershipLevel": "basic",
+        "websiteURL": "https://www.rosatispizza.com/",
+        "membershipLevel": "Bronze",
         "info": "Carry Out | Delivery | Catering | Dining"
       }
           
