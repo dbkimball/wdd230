@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Poppins&family=Rock+Salt&display=swap");
+
+body{
+    background-color: white;
+}
+header, main, footer{
+    position: relative;
+    padding: 10px;
+}
+h1{
+    font-family: 'Rocksalt';
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(75, 6, 139);
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+    gap: 5px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 190, 238);
+    border: 1px solid rgb(75, 6, 139);
+    padding: 5px;
+}
+h2{
+    color: black;
+    padding: 1px;
+    font-family: 'Poppins';
+    font-weight: bolder;
+}
+p{
+    font-family: 'Nunito';
+    margin:0%;
+}
+img{
+    max-width: 150px;
+    box-shadow: 0 0 10px rgb(75, 6, 139);
+    height: auto;
+    margin-top: 5px;
+}
+footer{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: black;
+}
