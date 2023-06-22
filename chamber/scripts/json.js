@@ -59,17 +59,16 @@ getDirectory();
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 
-
 gridbutton.addEventListener("click", () => {
-	display.classList.add("grid");
-	display.classList.remove("list");
+	display.classList.add("grid-view");
+	display.classList.remove("list-view");
 });
 
 listbutton.addEventListener("click", showList); 
 
 function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
+	display.classList.add("list-view");
+	display.classList.remove("grid-view");
 }
 
 
