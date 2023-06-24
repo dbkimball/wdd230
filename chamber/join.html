@@ -50,52 +50,91 @@
         </nav>
         <span id="currentDate"></span>
     </header>
+    
     <main class="join-grid">
+        <div class = "form">
         <h1>Membership Form</h1>
         <form method="get" action="thankyou.html">
-            <div>
-            <label class="first-name">First Name:</label>
-            <input type="text" id="first-name" name="first-name" required>
-            </div>
-            <div>
-            <label class="last-name">Last Name:</label>
-            <input type="text" id="last-name" name="last-name" required>
-            </div>
-            <div>
-            <label class="position-title">Position Title:</label>
-            <input type="text" id="position-title" name="position-title" pattern="[A-Za-z\s\-]{7,}">
-            </div>
-            <div>
-            <label class="email">Email:</label>
-            <input type="email" id="email" name="email" required placeholder="example@example.com">
-            </div>
-            <div>
-            <label class = "cell-phone">Cell Phone:</label>
-            <input type="tel" id="cell-phone" name="cell-phone" required>
-            </div>
-            <div>
-            <label class="business-name">Business Name/Title:</label>
-            <input type="text" id="business-name" name="business-name" required>
-            </div>
-            <div>
-            <label class="membership-level">Membership Level:</label>
-            <select id="membership-level" name="membership-level">
-                <option value="NP Membership">NP Membership</option>
-                <option value="Bronze Membership">Bronze Membership</option>
-                <option value="Silver Membership">Silver Membership</option>
-                <option value="Gold Membership">Gold Membership</option>
-            </select>
-            </div>
-            <div>
-            <label class="business-description">Business Description:</label>
-            <textarea id="business-description" name="business-description"></textarea>
-            </div>
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="first-name">First Name:
+                    <input type="text" id="first-name" name="first-name" required>
+                </label>
+                <label class="last-name">Last Name:
+                    <input type="text" id="last-name" name="last-name" required>
+                </label>
+                <label class="position-title">Position Title:
+                    <input type="text" id="position-title" name="position-title" pattern="[A-Za-z\s\-]{7,}">
+                </label>
+                <label class="email">Email:
+                    <input type="email" id="email" name="email" required placeholder="example@example.com">
+                </label>
+                <label class = "cell-phone">Cell Phone:
+                    <input type="tel" id="cell-phone" name="cell-phone" required>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Organizational Information</legend>
+                <label class="business-name">Business Name/Title:
+                    <input type="text" id="business-name" name="business-name" required>
+                </label>
+                <label class="membership-level">Membership Level:
+                    <select id="membership-level" name="membership-level">
+                        <option value="NP Membership">NP Membership</option>
+                        <option value="Bronze Membership">Bronze Membership</option>
+                        <option value="Silver Membership">Silver Membership</option>
+                        <option value="Gold Membership">Gold Membership</option>
+                    </select>
+                </label>
+                <label class="business-description">Business Description:
+                    <textarea id="business-description" name="business-description"></textarea>
+                </label>
+            </fieldset>
             <input type="hidden" name="form-loaded-time" value="">
-            <div>
-            <input type="submit" value="Apply For Membership">
-            </div>
+            <input id = "submitbtn" type="submit" value="Apply For Membership">
         </form>
-
+        </div>
+        <div id = "levels" class = "display-medium">
+            <h1>Membership Benefits</h1>
+            <hr>
+            <div class = "benefits">
+                <h3>Non Profit Organization</h3>
+                <p>Free of Charge</p>
+                <ul>
+                    <li>Training</li>
+                    <li>Donor Support</li>
+                </ul>
+            </div>
+            <div class = "benefits">
+                <h3>Bronze Membership</h3>
+                <p>$100.00</p>
+                <ul>
+                    <li>Training</li>
+                    <li>Business Hours Support</li>
+                </ul>    
+            </div>
+            <div class = "benefits">
+                <h3>Silver Membership</h3>
+                <p>$250.00</p>
+                <ul>
+                    <li>Training</li>
+                    <li>Business Hours Support</li>
+                    <li>After Hours Emergency Support</li>
+                    <li>Event Discounts</li>
+                </ul>    
+            </div>
+            <div class = "benefits">
+                <h3>Gold Membership</h3>
+                <p>$500.00</p>
+                <ul>
+                    <li>Training</li>
+                    <li>24 Hour Support</li>
+                    <li>Event Discounts</li>
+                    <li>Advertising</li>
+                </ul>    
+            </div>
+        </div>
+        
     </main> 
     <footer>
         <div class="section1">

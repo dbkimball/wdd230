@@ -98,5 +98,12 @@
         justify-content: center;
         gap: 5px;
     }
-    
+    /* join page css */
+    #levels div{
+        height: auto;
+        width: auto;
+    }
 }
+
+
+

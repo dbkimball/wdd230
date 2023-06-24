@@ -274,6 +274,36 @@ div.visitDays {
 .options button {
     padding: 1rem;    
 }
-/* .cards img{
-    max-width: 25px;
-} */
+
+
+/* Join Page CSS */
+
+.form{
+    background-color: #ff8d0a;
+}
+form{
+    text-align: left;
+    background-color: white;
+}
+form fieldset{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10%;
+    margin: 5%;
+}
+form label{
+    display: block;
+    padding: 1%;
+}
+form input{
+    display: block;
+}
+#levels{
+    display: none;
+}
+#submitbtn{
+    margin: auto;
+}
+#submitbtn:hover{
+    background-color: #ff8d0a;
+}
