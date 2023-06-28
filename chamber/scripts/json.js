@@ -36,8 +36,8 @@ directories.forEach((directory) => {
     image.setAttribute('src', directory.imageurl);
     image.setAttribute('alt', `Image for ${directory.name}`);
     image.setAttribute('loading', 'lazy');
-    image.setAttribute('width', '100');
-    image.setAttribute('height', '100');
+    image.setAttribute('width', '150');
+    image.setAttribute('height', 'auto');
 
 
     // Append the section(card) with the created elements
