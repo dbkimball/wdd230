@@ -79,5 +79,8 @@ const currentDate = new Date();
 const daysBetweenVisits = Math.floor((currentDate - new Date(lastVisit))/ (1000 *60 *60 *24));
 
 //display the number of days between visits on the page 
-document.getElementById('daysVisit').textContent = daysBetweenVisits;
+if (document.getElementById('daysVisit')){
+    document.getElementById('daysVisit').textContent = daysBetweenVisits;
+}
+
 
