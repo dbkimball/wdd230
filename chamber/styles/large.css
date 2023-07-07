@@ -25,11 +25,7 @@
         grid-column: 3/4;
     }
     
-    /*main*/
-    /* .main section, main div {
-        height: 100%;
-        width: 100%;
-    } */
+    
     
     /*Home Grid*/
     .home-grid {
@@ -86,7 +82,10 @@
     .large-only {
         display: block;
     }
-
+    /*Join Page*/
+    .form{
+        max-width: 750px;
+    }
     
     /*footer*/
     footer {

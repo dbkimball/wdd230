@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Rock+Salt&display=swap');
+
+:root {
+  
+  --primary-color: #e83f6f   ;
+  --secondary-color: #32936f ;
+  --accent1-color: #ffbf00;
+  --accent2-color: #2274a5;
+ 
+  --heading-font: "Rock Salt";
+  --paragraph-font: Poppins, Helvetica, sans-serif;
+  
+  --headline-color-on-white: #32936f;   
+  --headline-color-on-color: white;  
+  --paragraph-color-on-white: #e83f6f; 
+  --paragraph-color-on-color: white; 
+  --paragraph-background-color: #e83f6f;
+  --nav-link-color: white;
+  --nav-background-color: #e83f6f;
+  --nav-hover-link-color: 2274a5;
+  --nav-hover-background-color: #32936f;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+h2 {
+  text-align: center;
+}
+hr {
+  height: 3px;
+  margin: 35px 0;
+  background: var(--accent1-color);
+}
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--paragraph-color-on-color);
+  background-color: var(--paragraph-background-color);
+}
+header > h1, header > h2 {
+  color: var(--headline-color-on-color);
+}
+ul{
+    text-align: left;
+}
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color);
+  padding: 1em;
+}
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #c2b6b6;
+}
+.colors td{
+  width: 25%;
+  height: 3em;
+}
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2{
+  background-color: var(--accent2-color);
+}
+p.colored {
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+}
+nav {
+  background-color: var(--nav-background-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+}
+nav  {
+  list-style-type: none;
+  display: flex;
+}
+nav a {
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+footer{
+    background-color: var(--primary-color);
+    color: white;
+    font-family: 'Nunito', 'Helvetica', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p:hover{
+    text-decoration: underline;
+}
+footer a{
+    color: var(--accent2-color);
+    text-decoration: none;
+}
+footer a:hover{
+    color: var(--accent1-color);
+}
+footer .social img {
+    padding-top: 5px;
+    max-width: 15px;
+    max-height: 15px; 
+}

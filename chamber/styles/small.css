@@ -10,12 +10,11 @@
     display: block;
 }
 body {
-    /* max-width: 1200px;
-    min-width: 350px; */
-    /* margin: 0 auto;
-    display: block; */
     text-align: center;
     font-family: 'Nunito', sans-serif;
+}
+.home-grid section, .home-grid div {
+    margin: 0.3rem;
 }
 img {
     width: 100%;
@@ -100,7 +99,6 @@ main {
     margin: 5%;
 }
 main section, main div {
-    /* margin: 2rem; */
     background-color: tan;
     border: 1px solid black;
 }
@@ -245,13 +243,14 @@ div.visitDays {
     font-weight: bolder;
 }
 #directory img{
-    max-width: 20%;
+    max-width: 50%;
 }
 #directory section{
     background-color: rgb(253, 245, 245);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
     text-align: left;
+    margin:5px;
 }
 #directory section:nth-child(even) {
     background-color: rgb(187, 217, 243);
@@ -266,31 +265,24 @@ div.visitDays {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    padding: 5px;
+    padding: 10px;
 }
 .list-view{
     display: flex;
     flex-wrap: wrap;
-    text-align: left;
 }
-/* .list section{
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    margin: 0;
-    padding: .25rem;
-}
-.cards section{
-    background-color: rgb(245, 242, 242);
-    text-align: center;
+.list-view section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
     border: 1px solid black;
-    padding: 5px;
 }
-.cards section:nth-child(even){
-    background-color:rgb(187, 217, 243);
+.list-view section img{
+    display: none;
 }
-.cards section img{
-    max-width: 100px;
-} */
+.list-view
+
 .options button {
     padding: 1rem;    
 }
