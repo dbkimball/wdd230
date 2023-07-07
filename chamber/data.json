@@ -16,7 +16,7 @@
         "websiteURL": "https://theupsstore.com/",
         "membershipLevel": "Gold",
         "info": "Packing | Shipping | Notary | Mailbox Services",
-        "imageurl": "https://dynl.mktgcdn.com/p/gBxx9HCVjzLsmEKdK8QJo4IGyTdyQAQ9FAFmlckV6ho/600x450.jpg"
+        "imageurl": "https://github.com/dbkimball/wdd230/blob/main/chamber/images/upsstore.webp"
       },
       {
         "name": "Combs Performing Arts Center",
@@ -25,7 +25,7 @@
         "websiteURL": "https://www.jocombs.org/Page/517",
         "membershipLevel": "Silver",
         "info": "Arts | Event Products or Services",
-        "imageurl": "https://www.jocombs.org/cms/lib/AZ50010849/Centricity/Domain/364/Homepage%20MMG%20CPAC.png"
+        "imageurl": "https://github.com/dbkimball/wdd230/blob/main/chamber/images/jocombs.webp"
       },
       {
         "name": "Sally Beauty",
@@ -34,7 +34,7 @@
         "websiteURL": "",
         "membershipLevel": "Bronze",
         "info": "Retail | Hair & Beauty",
-        "imageurl": "https://assets.simpleviewinc.com/simpleview/image/upload/crm/peoriail/sally-beauty-confirms-second-breach-showcase_image-10-a-8224_D6B16B8D-5056-A36A-094A4E0A74178C7F-d6b16a085056a36_d6b16c0d-5056-a36a-09413798fec7b6a8.jpg"
+        "imageurl": "https://github.com/dbkimball/wdd230/blob/main/chamber/images/sallybeauty.webp"
       },
       {
         "name": "Mediacom",
@@ -43,7 +43,7 @@
         "websiteURL": "https://mediacomcable.com/",
         "membershipLevel": "Gold",
         "info": "Internet Services | Phone Services",
-        "imageurl": "https://www.inmyarea.com/static/img/providers/mediacom-authorized.png?v=1"
+        "imageurl": "https://github.com/dbkimball/wdd230/blob/main/chamber/images/mediacom.webp"
       },
       {
         "name": "LA Fitness",
@@ -52,7 +52,7 @@
         "websiteURL": "https://www.lafitness.com/",
         "membershipLevel": "Gold",
         "info": "Exercise | Physical Fitness",
-        "imageurl": "https://santanvalley.com/media/com_jbusinessdirectory/pictures/companies/669/cropped-1571856579.jpeg"
+        "imageurl": "https://github.com/dbkimball/wdd230/blob/main/chamber/images/lafitness.webp"
       },
       {
         "name": "Fry's Marketplace",
@@ -61,7 +61,7 @@
         "websiteURL": "https://www.frysfood.com/",
         "membershipLevel": "Gold",
         "info": "Groceries | Pharmacy | Fuel",
-        "imageurl": "https://ktar.com/wp-content/uploads/2017/10/frys-scanner-smartphone-shopping-more-valley-stores-620x370.jpg"
+        "imageurl": "https://github.com/dbkimball/wdd230/blob/main/chamber/images/frys.webp"
       },
       {
         "name": "The Joint",
@@ -70,7 +70,7 @@
         "websiteURL": "https://www.thejoint.com/",
         "membershipLevel": "Silver",
         "info": "Chiropractor | Health & Wellness",
-        "imageurl": "https://s3-media0.fl.yelpcdn.com/bphoto/gD6jZpySSijRxziMnmSpBA/l.jpg"
+        "imageurl": "https://github.com/dbkimball/wdd230/blob/main/chamber/images/thejoint.webp"
       },
       {
         "name": "Rosati's Pizza",
@@ -79,7 +79,7 @@
         "websiteURL": "https://www.rosatispizza.com/",
         "membershipLevel": "Bronze",
         "info": "Carry Out | Delivery | Catering | Dining",
-        "imageurl": "https://media-cdn.tripadvisor.com/media/photo-s/1b/6b/41/35/myrosatiscom.jpg"
+        "imageurl": "https://github.com/dbkimball/wdd230/blob/main/chamber/images/rosatis.webp"
       }
           
     ]
