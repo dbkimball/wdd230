@@ -7,7 +7,7 @@
         "websiteURL": "https://frommfamily.com/r/6740",
         "membershipLevel": "Bronze",
         "info": "Feed | Ranch Supplies | Pet Supplies",
-        "imageurl": "https://github.com/dbkimball/wdd230/blob/main/chamber/images/santanlivestock.webp"
+        "imageurl": "https://dbkimball.github.io/wdd230/chamber/images/santanlivestock.webp"
       },
       {
         "name": "The UPS Store",
@@ -16,7 +16,7 @@
         "websiteURL": "https://theupsstore.com/",
         "membershipLevel": "Gold",
         "info": "Packing | Shipping | Notary | Mailbox Services",
-        "imageurl": "https://github.com/dbkimball/wdd230/blob/main/chamber/images/upsstore.webp"
+        "imageurl": "https://dbkimball.github.io/wdd230/chamber/images/upsstore.webp"
       },
       {
         "name": "Combs Performing Arts Center",
@@ -25,7 +25,7 @@
         "websiteURL": "https://www.jocombs.org/Page/517",
         "membershipLevel": "Silver",
         "info": "Arts | Event Products or Services",
-        "imageurl": "https://github.com/dbkimball/wdd230/blob/main/chamber/images/jocombs.webp"
+        "imageurl": "https://dbkimball.github.io/wdd230/chamber/images/jocombs.webp"
       },
       {
         "name": "Sally Beauty",
@@ -34,7 +34,7 @@
         "websiteURL": "",
         "membershipLevel": "Bronze",
         "info": "Retail | Hair & Beauty",
-        "imageurl": "https://github.com/dbkimball/wdd230/blob/main/chamber/images/sallybeauty.webp"
+        "imageurl": "https://dbkimball.github.io/wdd230/chamber/images/sallybeauty.webp"
       },
       {
         "name": "Mediacom",
@@ -43,7 +43,7 @@
         "websiteURL": "https://mediacomcable.com/",
         "membershipLevel": "Gold",
         "info": "Internet Services | Phone Services",
-        "imageurl": "https://github.com/dbkimball/wdd230/blob/main/chamber/images/mediacom.webp"
+        "imageurl": "https://dbkimball.github.io/wdd230/chamber/images/mediacom.webp"
       },
       {
         "name": "LA Fitness",
@@ -52,7 +52,7 @@
         "websiteURL": "https://www.lafitness.com/",
         "membershipLevel": "Gold",
         "info": "Exercise | Physical Fitness",
-        "imageurl": "https://github.com/dbkimball/wdd230/blob/main/chamber/images/lafitness.webp"
+        "imageurl": "https://dbkimball.github.io/wdd230/chamber/images/lafitness.webp"
       },
       {
         "name": "Fry's Marketplace",
@@ -61,7 +61,7 @@
         "websiteURL": "https://www.frysfood.com/",
         "membershipLevel": "Gold",
         "info": "Groceries | Pharmacy | Fuel",
-        "imageurl": "https://github.com/dbkimball/wdd230/blob/main/chamber/images/frys.webp"
+        "imageurl": "https://dbkimball.github.io/wdd230/chamber/images/frys.webp"
       },
       {
         "name": "The Joint",
@@ -70,7 +70,7 @@
         "websiteURL": "https://www.thejoint.com/",
         "membershipLevel": "Silver",
         "info": "Chiropractor | Health & Wellness",
-        "imageurl": "https://github.com/dbkimball/wdd230/blob/main/chamber/images/thejoint.webp"
+        "imageurl": "https://dbkimball.github.io/wdd230/chamber/images/thejoint.webp"
       },
       {
         "name": "Rosati's Pizza",
@@ -79,7 +79,7 @@
         "websiteURL": "https://www.rosatispizza.com/",
         "membershipLevel": "Bronze",
         "info": "Carry Out | Delivery | Catering | Dining",
-        "imageurl": "https://github.com/dbkimball/wdd230/blob/main/chamber/images/rosatis.webp"
+        "imageurl": "https://dbkimball.github.io/wdd230/chamber/images/rosatis.webp"
       }
           
     ]
