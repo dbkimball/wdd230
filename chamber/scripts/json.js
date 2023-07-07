@@ -13,13 +13,12 @@ directories.forEach((directory) => {
     // Create elements to add to the div.cards element
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
+    let image = document.createElement('img');
     let p1 = document.createElement("p");
     let p2 = document.createElement("p");
     let p3 = document.createElement("p");
     let p4 = document.createElement("p");
     let a1 = document.createElement("a");
-    let image = document.createElement('img');
-    
 
     //build content out
     h2.textContent = `${directory.name}`;
@@ -31,7 +30,6 @@ directories.forEach((directory) => {
     a1.href = directory.websiteURL;
     a1.target = 'blank';
 
-
     // Build the image by setting all the relevant attribute
     image.setAttribute('src', directory.imageurl);
     image.setAttribute('alt', `Image for ${directory.name}`);
@@ -39,16 +37,15 @@ directories.forEach((directory) => {
     image.setAttribute('width', '150');
     image.setAttribute('height', 'auto');
 
-
     // Append the section(card) with the created elements
     card.appendChild(h2);
+    card.appendChild(image);
     card.appendChild(p1);
     card.appendChild(p2);
     card.appendChild(p3);
     card.appendChild(p4);
     card.appendChild(a1);
-    card.appendChild(image);
-
+   
     cards.appendChild(card);
 }); // end of forEach loop
 }
