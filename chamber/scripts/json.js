@@ -42,7 +42,7 @@ directories.forEach((directory) => {
     card.appendChild(image);
     card.appendChild(p1);
     card.appendChild(p2);
-    card.appendChild(p3);
+    // card.appendChild(p3);
     card.appendChild(p4);
     card.appendChild(a1);
    
