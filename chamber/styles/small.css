@@ -333,6 +333,15 @@ form input{
     margin-top: 10%;
     margin-bottom: 10%;
 }
+.contactInfo a{
+    background-color: #034363;
+    color: white;
+    margin: 3%;
+}
+.contactInfo a:hover{
+    background-color: white;
+    color: black;
+}
 .board{
     background-color: skyblue;
     margin-top: 10%;
