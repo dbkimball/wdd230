@@ -4,8 +4,8 @@
 <head>
     <meta charset = "UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Directory - Deena Baldwin</title>
-    <meta name="description" content="Discover page for Chamber of Commerce website.">
+    <title>Join - Deena Baldwin</title>
+    <meta name="description" content="Join Page for Chamber of Commerce website.">
     
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
@@ -50,16 +50,59 @@
         </nav>
         <span id="currentDate"></span>
     </header>
-    <main id = "directory">
-        <div class = "title">Business Directory</div>
-        <div class = "options"></div>
-            <button id = "grid">⏹️Grid</button>
-            <button id = "list">📄List</button>
-
-        <div class ="cards"></div>
-
+    <main class="contact-grid">
+        <div class = "contactInfo">
+            <h1>Contact Info</h1>
+            <h3>480-518-1234</h3>
+            <h4>info@santanvalleychamber.com</h4>
+            <a href="https://www.facebook.com" target="blank" class="fb"><span></span><b>Facebook</b></a><br>
+            <a href="https://www.linkedin.com/" target="blank" class="linked"><b>Linkedin</b></a><br>
+            <a href="https://www.twitter.com/" target="blank" class="twitter"><b>Twitter</b></a>
+            <hr>
+            <h1>Office Hours</h1>
+            <p>Monday - Friday 8:00 am to 5:00pm</p>
+        </div>
+        <div class = "board">
+            <h1>Board of Directors</h1>
+            <h3>Deena Baldwin - CEO</h3>
+            <p>deena.baldwin@santanvalleychamber.com</p>
+            <h4>Joseph Kimball - Director</h4>
+            <p>joseph.kimball@santanvalleychamber.com</p>
+            <h4>Kaycee Knight - Chairman</h4>
+            <p>kaycee.knight@santanvalleychamber.com</p>
+            <h4>Rachel Freeman - Head of Portfolio Operations</h4>
+            <p>rachel.freeman@santanvalleychamber.com</p>
+        </div>
+        
+        
+        <div class = "contactform">
+        <form class = "contact">
+            <fieldset class = "contact">
+                <legend>General Inquiry</legend>
+                <label for="full-name">Full Name:
+                    <input type="text" id="full-name" name = "full-name" required>
+                </label>
+                <label class="email">Email:
+                    <input type="email" id="email" name="email" required placeholder="example@example.com">
+                </label>
+                <label class = "cell-phone">Cell Phone:
+                    <input type="tel" id="cell-phone" name="cell-phone" required>
+                </label>
+                <label class="subject">Subject:
+                    <input type="text" id="subject" name="subject" required>
+                </label>
+                <label class="message">Your Message:
+                    <input type="text" id="message" name="message" required>
+                </label>
+            </fieldset>
+            <input id = "submitbtn" type="submit" value="Send Message">
+        </form>
+        </div>
+        <div id="contact">
+            <p>Discover how to join the chamber of commerce and how it will benefit your business or organization!</p>
+            <a class = "joinbutton" href="join.html">Join Now</a>
+        </div>
     </main>
-    
     <footer>
         <div class="section1">
             <img class="logo-image" src="images/logo.webp" alt="San Tan Valley Chamber of Commerce Logo">
@@ -82,6 +125,5 @@
         </div>
     </footer>
     <script src = "scripts/main.js"></script>
-    <script src = "scripts/json.js"></script>
 </body>
 </html>

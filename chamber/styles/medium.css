@@ -76,7 +76,43 @@
 
     /* Join Page */
     
-       
+    
+    /*Contact Page */
+    .contact-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+    }
+    .contactInfo{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .board{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .contactform{
+        background-color: skyblue;
+    }
+    #contact{
+        background-color: #ff8d0a;
+        padding: 10%;
+        margin-left: 10%;
+    }
+    #contact p{
+       margin: 20%;
+    }
+    .joinbutton{
+        background-color: #034363;
+        border-radius: 5%;
+        padding: 5%;
+        color: white;
+    }
+    .joinbutton:hover{
+        background-color: white;
+        color: black;
+    }
+    
     /*footer*/
     footer {
         display: grid;

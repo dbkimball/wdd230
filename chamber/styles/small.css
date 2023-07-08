@@ -281,7 +281,6 @@ div.visitDays {
 .list-view section img{
     display: none;
 }
-.list-view
 
 .options button {
     padding: 1rem;    
@@ -319,3 +318,35 @@ form input{
 #submitbtn:hover{
     background-color: #ff8d0a;
 }
+
+/*Contact Page CSS */
+.contactform{
+    background-color: #ff8d0a;
+}
+.contact-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+}
+.contactInfo{
+    background-color: #ff8d0a;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.board{
+    background-color: skyblue;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#contact{
+    background-color: skyblue;
+    margin-top: 5%;
+}
+.joinbutton{
+    background-color: #034363;
+    color: white;
+}
+.joinbutton:hover{
+    background-color: #ff8d0a;
+}
+
