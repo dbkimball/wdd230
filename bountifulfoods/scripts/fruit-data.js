@@ -1,21 +1,26 @@
-const fruitDataUrl = "https://api.jsonbin.io/b/60db3b3ec87b936ae6a3e2d7";
+// const url = "https://brotherblazzard.github.io/canvas-content/fruit.json";
 
-async function populateFruitOptions() {
-  const response = await fetch(fruitDataUrl);
-  if (response.ok) {
-    const fruitData = await response.json();
-    const selectElements = document.querySelectorAll("select[name^='fruit']");
-    selectElements.forEach((selectElement) => {
-      fruitData.forEach((fruit) => {
-        const optionElement = document.createElement("option");
-        optionElement.value = fruit;
-        optionElement.textContent = fruit;
-        selectElement.appendChild(optionElement);
+// Function to fetch fruit data and populate the select elements
+async function fetchAndPopulateFruits() {
+  try {
+    const response = await fetch('https://brotherblazzard.github.io/canvas-content/fruit.json');
+    const data = await response.json();
+
+    const fruitSelects = document.querySelectorAll('select[id^="fruit"]');
+
+    fruitSelects.forEach((selectElement) => {
+      data.fruits.forEach((fruit) => {
+        const option = document.createElement('option');
+        option.text = fruit.name;
+        option.value = fruit.name;
+        selectElement.appendChild(option);
       });
     });
-  } else {
-    console.log("Failed to fetch fruit data.");
+  } catch (error) {
+    console.error('Error fetching fruit data:', error);
   }
 }
 
-populateFruitOptions();
+// Call the function to fetch and populate the fruits when the page is loaded
+window.addEventListener('DOMContentLoaded', fetchAndPopulateFruits);
+

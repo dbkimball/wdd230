@@ -82,11 +82,16 @@ main{
 }
 .fruit, .fruit2, .fruit3{
     display: block;
-
 }
 .card-img{
     border: 10px solid #2274a5;
-    transition: transform .10s;
+    transition: transform .5s;
+    max-height: 500px;
+    max-width: auto;
+
+}
+.card-img:hover{
+    opacity: .10;
 }
 
 main h2{
@@ -94,6 +99,140 @@ main h2{
     font-weight: bolder;
     font-style: italic;
 }
+.weather{
+    align-content: center;
+    background-color:#2274a5;
+    max-width: 300px;
+    padding: 5%;
+}
+.weather h3{
+    font-family: 'Nunito';
+    font-weight: bolder;
+    text-align: center;
+}
+.weather p{
+    font-family: 'Poppins';
+    text-align: center;
+}
+.summary {
+    background-color:#ffbf00;
+    max-width: 300px;
+    padding: 5%;
+    color: black;
+    text-align: center;
+}
+.summary p{
+    font-family: 'Poppins';
+    color: black;
+    font-weight: bolder;
+}
+.map{
+    background-color:#32936F;
+    max-width: 500px;
+    text-align: center;
+    padding: 5%;
+}
+.map a{
+    font-family: 'Nunito';
+    text-align: center;
+    display: block;
+    padding-top: 5%;
+}
+
+/* Fresh Page */
+
+.form{
+    background-color:#96dcf8; 
+    max-width: 800px;
+    margin-left: 100px;
+    font-familY: 'Nunito';
+}
+.form label{
+    display: block;
+    padding: 2%;
+    font-family: 'Nunito';
+}
+.form input{
+    display: block;
+    padding: 2%;
+    margin-left: 5%;
+    width: 500px;
+}
+.form select{
+    padding: 2%;
+    margin-left: 5%;
+    width: 500px;
+}
+.form textarea{
+    padding: 2%;
+    margin-left: 5%;
+    width: 500px;
+    height: 300px;
+}
 footer{
     background-color: #e83f6f;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: 'Nunito', 'Helvetica', sans-serif;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.section1, .section2, .section3, .social{
+    padding: 2%;
+}
+footer h4{
+    font-family: 'Poppins';
+    font-size: xx-large;
+    color: white;
+    font-weight: bolder;
+}
+
+/* about us  */
+#about {
+    font-family: 'Poppins';
+    background-color:#96dcf8;
+    max-width: 500px;
+    text-align: center;
+    padding: 5%;
+}
+#contactInfo{
+    font-family: 'Nunito';
+    background-color: #ffbf00;
+    max-width: 500px;
+    padding: 5%;
+}
+.contactform{
+    background-color:#2274a5;
+    max-width: 500px;
+    padding: 5%;
+}
+
+.contactform label{
+    display: block;
+    padding: 2%;
+    font-family: 'Nunito';
+}
+.contactform input{
+    display: block;
+    padding: 2%;
+    margin-left: 5%;
+    width: 400px;
+}
+
+.contactform textarea{
+    padding: 2%;
+    margin-left: 5%;
+    width: 300px;
+    height: 200px;
+}
+
+/* footer */
+footer p{
+    color: black;
+}
+.section3 img{
+    max-height: 30px;
+    max-width: 30px;
 }
