@@ -63,7 +63,7 @@ nav a:hover{
 .button-box{
     text-align: center;
 }
-.fresh{
+#order{
     background-color:#e83f6f;
     color: white;
     padding: 5px;
@@ -72,7 +72,7 @@ nav a:hover{
     font-family: 'Nunito';
     font-size: 25px;
 }
-.fresh:hover{
+.order:hover{
     background-color:aliceblue;
     color: black;
 }

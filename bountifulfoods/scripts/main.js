@@ -45,3 +45,29 @@ if('IntersectionObserver' in window) {
         loadImages(img);
     });
 }
+// Event listener for the "Order Drink Here" button
+document.getElementById('order').addEventListener('click', function() {
+    // Navigate to the "fresh.html" page
+    window.location.href = 'fresh.html';
+  });
+
+//drink count
+function updateDrinkCount() {
+    const drinkCountElement = document.getElementById('drinkCount');
+    const currentCount = parseInt(localStorage.getItem('drinkCount')) || 0;
+    drinkCountElement.textContent = currentCount;
+  }
+
+  // Function to increment the drink count and update local storage
+  function incrementDrinkCount() {
+    const currentCount = parseInt(localStorage.getItem('drinkCount')) || 0;
+    const newCount = currentCount + 1;
+    localStorage.setItem('drinkCount', newCount);
+    updateDrinkCount();
+  }
+
+  // Event listener for the order drink button
+  document.getElementById('order').addEventListener('click', incrementDrinkCount);
+
+  // Call the function to display the initial drink count when the page is loaded
+  window.addEventListener('DOMContentLoaded', updateDrinkCount);

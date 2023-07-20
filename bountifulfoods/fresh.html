@@ -37,26 +37,29 @@
                     <h2>Create Your Own Specialty Drink</h2>
                     <form id="drinkForm">
                       <label for="firstName">First Name:</label>
-                      <input type="text" id="firstName" required>
+                      <input id ="firstName" type="text" required>
               
                       <label for="email">Email:</label>
-                      <input type="email" id="email" required>
+                      <input type="email" id="email" required placeholder="example@example.com">
               
                       <label for="phone">Phone Number:</label>
-                      <input type="tel" id="phone" required>
+                      <input type="tel" id="phone" required placeholder="760-518-1234">
               
                       <label id = "fruit" for="fruit1">Fruit 1:</label>
                       <select id="fruit1" required>
+                        <option value=>click to select</option>
                         <!-- Populate the options dynamically using JavaScript -->
                       </select>
               
                       <label id = "fruit" for="fruit2">Fruit 2:</label>
-                      <select id="fruit2" required>
+                      <select id="fruit2">
+                        <option value=>click to select</option>
                         <!-- Populate the options dynamically using JavaScript -->
                       </select>
               
                       <label id = "fruit" for="fruit3">Fruit 3:</label>
-                      <select id="fruit3" required>
+                      <select id="fruit3">
+                        <option value=>click to select</option>
                         <!-- Populate the options dynamically using JavaScript -->
                       </select>
               
@@ -104,7 +107,7 @@
         
     </footer>
 <script src = "scripts/main.js"></script>
-<script src = "scripts/fruit-data.js"></script>
+<script src = "scripts/fruitoptions.js"></script>
 <script src = "scripts/output.js"></script>
 
 </body>
