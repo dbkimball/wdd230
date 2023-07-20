@@ -96,8 +96,7 @@ main{
 .card-img{
     border: 10px solid #2274a5;
     transition: transform .5s;
-    max-height: 400px;
-    max-width: 350px;
+
 
 }
 .card-img:hover{
