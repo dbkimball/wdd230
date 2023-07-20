@@ -47,7 +47,7 @@ nav a:hover{
 }
 #hero-msg h1{
     text-align: center;
-    color: #e83f6f;
+    color: #ee0849;
     font-size:3rem;
     font-weight: bolder;
 }
@@ -62,7 +62,7 @@ nav a:hover{
     text-align: center;
 }
 #order{
-    background-color:#e83f6f;
+    background-color:#df0543;
     color: white;
     padding: 5px;
     border-radius: 5px;
@@ -151,8 +151,12 @@ figure{
     text-align: center;
     display: block;
     padding-top: 5%;
+    color: black;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.map a:hover{
     color: white;
-    font-size:larger;
 }
 
 /* Fresh Page */
