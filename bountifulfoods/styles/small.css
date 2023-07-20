@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Rock+Salt&display=swap');
+
+:root {
+  
+  --primary-color: #e83f6f   ;
+  --secondary-color: #32936f ;
+  --accent1-color: #ffbf00;
+  --accent2-color: #2274a5;
+ 
+  --heading-font: "Rock Salt";
+  --paragraph-font: Poppins, Helvetica, sans-serif;
+  
+  --headline-color-on-white: #32936f;   
+  --headline-color-on-color: white;  
+  --paragraph-color-on-white: #e83f6f; 
+  --paragraph-color-on-color: white; 
+  --paragraph-background-color: #e83f6f;
+  --nav-link-color: white;
+  --nav-background-color: #e83f6f;
+  --nav-hover-link-color: 2274a5;
+  --nav-hover-background-color: #32936f;
+}
+body{
+    background-color: white;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #e83f6f;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    color:black;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
+    font-size: 22px;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: #32936F;
+    color: white;
+}
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -50px;
+}
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hero-msg h1{
+    text-align: center;
+    color: #32936F;
+}
+#hero-msg h4{
+    color: #ffbf00;
+}
+
+footer{
+    background-color: #e83f6f;
+}

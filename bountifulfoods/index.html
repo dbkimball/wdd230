@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Home- Deena Baldwin</title>
+    <meta name="description" content="Home page for Bountiful Foods">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Poppins&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="icon" href="#" type="image/x-icon">
+
+        <!-- 2. 📄 The Home page is a contemporary, exciting landing page providing images of fruit and produce including specialty fruit drinks that are ready to serve and made fresh. The page must contain the following.
+    3. Readily available navigation and business contact information.
+    4. Summary information about any coastal area or areas in the southern California coast of your choosing.
+    5. A call to action to make your own fruit drink mix. This link can link to the 📄Fresh page.
+    6. Social media links (at least three) (no account necessary).
+    7. The weather card(s) must summarize the current weather conditions for Carlsbad. Use the OpenWeatherMap APIs (weather, forecast/daily) and include:
+    8. the current temperature,
+    9. the condition description,
+    10. the humidity, and
+    11. a three(3) day temperature forecast.
+    Include an information card about the total number of specialty drinks that the current user has submitted from the Fresh page form. This information should just be stored locally, with the user's agent (in their browser). -->
+</head>
+<body>
+  <header>
+    <div id ="navigation">
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/BFlogo.webp" alt="Bountiful Foods Logo">
+        </a>
+        <nav id = "primaryNav">
+            <button id="hamburgerBtn">&#9776;</button>
+            <a href="index.html">Home</a>
+            <a href="fresh.html">Fresh</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </div>
+  </header>
+  <div id="hero">
+    <div id="hero-box">
+        <img id="hero-img" src="images/heroimage.webp" alt="Fruit Drinks on the Beach">
+    </div>
+    <section id="hero-msg">
+        <h1 class="home-title">Bountiful Foods</h1>
+        <h4>Exciting and fresh fruit drinks made just for you!</h4>
+        <div class='button-box'>
+            <a class='fresh' href="fresh.html">Order Here</a>
+        </div>
+    </section>
+    <section class = "drinks">
+        <p>Number of drinks ordered: <span id = "drink-count"> 0</span></p>
+    </section>
+</div>
+
+  <main>
+    <section id="home-grid">
+        <section class="fruit">
+            <img class="card-img" src="i# alt="#">
+            <img class="icon" src="#" alt="#">
+            <h2>Smoothies</h2>
+        </section>
+        <section class="fruit2">
+            <img class="card-img" src="#" alt="#">
+            <img class="icon" src="#" alt="#">
+            <h2>Fruit</h2>
+        </section>
+        <section class="fruit3">
+            <img class="card-img" src="#" alt="#">
+            <img class="icon" src="#" alt="#">
+            <h2>Custom</h2>
+        </section>
+       
+        <section class="weather">
+            <h3>Weather</h3>
+            <div class = "weather">
+                <p><span id="temperature"></span> &deg;F</p>
+                <figure>
+                    <img src="#" alt="" id="weather-icon" />
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+                <h3><span id="condition"></span></h3>
+            <p>Humidity: <span id="humidity"></span>%</p>
+        </section>
+        <section class = "summary">
+            <img src="images/carslbad.webp" alt="coastal image">
+            <p>Carlsbad is a coastal city North of San Diego in San Diego County.  The city is 87 miles south of downtown LA. This beutiful city offers sandy beaches, unique lagoons of the Pacific Ocean, outsanding shopping, and world-class sports.  With near perfect weather and vast options of activities, it's an ideal place for a vacation.</p>
+        </section>
+        <section class = "map">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3340.973206752196!2d-117.32923692396126!3d33.13606846554977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDA4JzA5LjgiTiAxMTfCsDE5JzM2LjAiVw!5e0!3m2!1sen!2sus!4v1689810668335!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <a href="https://goo.gl/maps/WSVJrFLNwR9CRYMD9">📍 Location</a>
+            </div>
+        </section>
+    </section>
+    
+  </main>
+
+  <footer>
+    <div class="section1">
+        <img class="logo-image" src="images/BFlogo.webp" alt="Logo">
+        <section class="company">
+            <h5 class="bold">Bountiful Foods</h5>
+            <p>info@bountifulfoods.com</p>
+            <p>760-518-1234</p>
+            <p>address</p>           
+        </section>
+    </div>
+    
+    <hr>
+    <div class="section2">
+        <section>
+            <p>&copy; <span id="year"></span> | Deena Baldwin | WDD230  Final | Last Updated: <span id="currentdatetime"></span>
+            </p>    
+        </section>
+    </div>
+    <div class="social">
+        <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="fb icon">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.png" alt="twitter icon">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img src="images/instagram.png" alt="instagram icon">
+        </a>
+    </div>
+</footer>
+<script src = "scripts/main.js"></script>
+<script src = "scripts/weather.js"></script>
+
+</body>
+</html>
+

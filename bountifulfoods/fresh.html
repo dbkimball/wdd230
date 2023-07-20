@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Fresh- Deena Baldwin</title>
+    <meta name="description" content="Fresh page for Bountiful Foods">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Poppins&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="icon" href="#" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <div id ="navigation">
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/BFlogo.webp" alt="Bountiful Foods Logo">
+            </a>
+            <nav id = "primaryNav">
+                <button id="hamburgerBtn">&#9776;</button>
+                <a href="index.html">Home</a>
+                <a href="fresh.html">Fresh</a>
+                <a href="about.html">About Us</a>
+            </nav>
+        </div>
+      </header>
+    <main>
+        <section id="fresh">
+            
+            <div class="form">
+                <form id="drinkorder" method="get" onsubmit="submitEvent()">
+                    <h2>Create Your Own Specialty Drink</h2>
+                    <form id="drinkForm">
+                      <label for="firstName">First Name:</label>
+                      <input type="text" id="firstName" required>
+              
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" required>
+              
+                      <label for="phone">Phone Number:</label>
+                      <input type="tel" id="phone" required>
+              
+                      <label for="fruit1">Fruit 1:</label>
+                      <select id="fruit1" required>
+                        <!-- Populate the options dynamically using JavaScript -->
+                      </select>
+              
+                      <label for="fruit2">Fruit 2:</label>
+                      <select id="fruit2" required>
+                        <!-- Populate the options dynamically using JavaScript -->
+                      </select>
+              
+                      <label for="fruit3">Fruit 3:</label>
+                      <select id="fruit3" required>
+                        <!-- Populate the options dynamically using JavaScript -->
+                      </select>
+              
+                      <label for="specialInstructions">Special Instructions:</label>
+                      <textarea id="specialInstructions"></textarea>
+              
+                      <button type="submit">Submit</button>
+                    </form>
+              
+                    <div id="orderSummary">
+
+                    </div>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="section1">
+            <img class="logo-image" src="images/BFlogo.webp" alt="Logo">
+            <section class="company">
+                <h5 class="bold">Bountiful Foods</h5>
+                <p>info@bountifulfoods.com</p>
+                <p>760-518-1234</p>
+                <p>address</p>           
+            </section>
+        </div>
+        
+        <hr>
+        <div class="section2">
+            <section>
+                <p>&copy; <span id="year"></span> | Deena Baldwin | WDD230  Final | Last Updated: <span id="currentdatetime"></span>
+                </p>    
+            </section>
+        </div>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+<script src = "scripts/main.js"></script>
+
+</body>
+</html>
