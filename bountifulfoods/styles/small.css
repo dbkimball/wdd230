@@ -230,11 +230,16 @@ footer h4{
     max-width: 500px;
     padding: 5%;
 }
-
+.contact legend{
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+}
 .contactform label{
     display: block;
     padding: 2%;
     font-family: 'Nunito';
+    color: white;
 }
 .contactform input{
     display: block;
@@ -249,6 +254,7 @@ footer h4{
     width: 300px;
     height: 200px;
 }
+
 
 /* footer */
 footer p{
