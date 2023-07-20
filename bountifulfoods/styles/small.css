@@ -47,7 +47,7 @@ nav a:hover{
 }
 #hero-msg h1{
     text-align: center;
-    color: #32936F;
+    color: white;
     font-size:3rem;
     font-weight: bolder;
 }
@@ -76,9 +76,10 @@ nav a:hover{
 }
 .drinks{
     font-family: 'Poppins';
-    background-color:#ffbf00;
-    color: white;
+    background-color:#f5d470;
+    color: black;
     font-weight: bolder;
+    font-size:larger;
     padding: 5%;
     margin-left: 20%;
     margin-top: -70%;
@@ -110,6 +111,8 @@ main h2{
     background-color:#2274a5;
     max-width: 300px;
     padding: 5%;
+    color: white;
+    font-weight:bolder;
 }
 .weather h3{
     font-family: 'Nunito';
@@ -118,6 +121,9 @@ main h2{
 }
 .weather p{
     font-family: 'Poppins';
+    text-align: center;
+}
+figure{
     text-align: center;
 }
 
@@ -145,6 +151,8 @@ main h2{
     text-align: center;
     display: block;
     padding-top: 5%;
+    color: white;
+    font-size:larger;
 }
 
 /* Fresh Page */
