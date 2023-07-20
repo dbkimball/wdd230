@@ -5,8 +5,8 @@
         grid-template-rows: auto;
     
     }
-    .fruit, .fruit2, .fruit3, .weather, .summary, .map{
+    /* .fruit, .fruit2, .fruit3, .weather, .summary, .map{
         margin: 5%;
         max-width: 600px;
-    }
+    } */
 }

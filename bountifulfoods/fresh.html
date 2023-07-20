@@ -35,7 +35,6 @@
             <div class="form">
                 <form id="drinkorder" method="get" onsubmit="submitEvent()">
                     <h2>Create Your Own Specialty Drink</h2>
-                    <form id="drinkForm">
                       <label for="firstName">First Name:</label>
                       <input id ="firstName" type="text" required>
               
@@ -45,30 +44,31 @@
                       <label for="phone">Phone Number:</label>
                       <input type="tel" id="phone" required placeholder="760-518-1234">
               
-                      <label id = "fruit" for="fruit1">Fruit 1:</label>
+                      <label for="fruit1">Fruit 1:</label>
                       <select id="fruit1" required>
-                        <option value=>click to select</option>
+                        <option value="">Click to select</option>
                       </select>
               
-                      <label id = "fruit" for="fruit2">Fruit 2:</label>
+                      <label  for="fruit2">Fruit 2:</label>
                       <select id="fruit2" required>
-                        <option value=>click to select</option>
+                        <option value="">Click to select</option>
                       </select>
               
-                      <label id = "fruit" for="fruit3">Fruit 3:</label>
+                      <label  for="fruit3">Fruit 3:</label>
                       <select id="fruit3" required>
-                        <option value=>click to select</option>
+                        <option value="">Click to select</option>
                       </select>
               
                       <label for="specialInstructions">Special Instructions:</label>
                       <textarea id="specialInstructions"></textarea>
               
-                      <input type="submit"></button>
-                    </form>
+                      <input type="submit">
+                </form>
               
                     <div id="orderSummary">
                         <!-- output area for user inputs -->
                     </div>
+            </div>
         </section>
         
     </main>
