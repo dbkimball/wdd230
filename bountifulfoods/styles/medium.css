@@ -6,7 +6,10 @@
     
     }
     .fruit, .fruit2, .fruit3, .weather, .summary, .map{
-        margin: 10%;
+      
+    }
+    .form{
+        max-width: 800px;   
     }
    
 }

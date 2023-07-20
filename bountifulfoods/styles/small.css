@@ -96,8 +96,7 @@ main{
 .card-img{
     border: 10px solid #2274a5;
     transition: transform .5s;
-
-
+    max-width: 400px;
 }
 .card-img:hover{
     opacity: .10;
@@ -154,7 +153,7 @@ main h2{
 
 .form{
     background-color:#96dcf8; 
-    max-width: 800px;
+    max-width: 400px;
     margin-left: 100px;
     font-familY: 'Nunito';
 }
@@ -167,19 +166,21 @@ main h2{
     display: block;
     padding: 2%;
     margin-left: 5%;
-    width: 500px;
+    width: 400px;
 }
 .form select{
     padding: 2%;
     margin-left: 5%;
-    width: 500px;
+    width: 400px;
 }
 .form textarea{
     padding: 2%;
     margin-left: 5%;
-    width: 500px;
+    width: 400px;
     height: 300px;
 }
+
+/* footer */
 footer{
     background-color: #e83f6f;
     display: flex;
