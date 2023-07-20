@@ -29,6 +29,7 @@ body{
 header{
     background-color: #e83f6f;
 }
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -54,16 +55,39 @@ nav a:hover{
     z-index: -1;
 }
 #hero-msg{
+    background-color:#96dcf8;
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 #hero-msg h1{
     text-align: center;
     color: #32936F;
+    font-size:3rem;
+    font-weight: bolder;
 }
 #hero-msg h4{
-    color: #ffbf00;
+    color: #2274a5;
+    font-family: 'Poppins';
+    text-align: center;
+    font-weight: bolder;
+    font-size:xx-large;
+}
+.button-box{
+    text-align: center;
+}
+.fresh{
+    background-color:#e83f6f;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -30px;
+    font-family: 'Nunito';
+    font-size: 25px;
+}
+.fresh:hover{
+    background-color:aliceblue;
+    color: black;
 }
 
 footer{

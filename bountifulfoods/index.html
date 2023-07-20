@@ -13,33 +13,23 @@
     <link rel="stylesheet" href="styles/large.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Poppins&family=Rock+Salt&display=swap" rel="stylesheet">
     <link rel="icon" href="#" type="image/x-icon">
-
-        <!-- 2. 📄 The Home page is a contemporary, exciting landing page providing images of fruit and produce including specialty fruit drinks that are ready to serve and made fresh. The page must contain the following.
-    3. Readily available navigation and business contact information.
-    4. Summary information about any coastal area or areas in the southern California coast of your choosing.
-    5. A call to action to make your own fruit drink mix. This link can link to the 📄Fresh page.
-    6. Social media links (at least three) (no account necessary).
-    7. The weather card(s) must summarize the current weather conditions for Carlsbad. Use the OpenWeatherMap APIs (weather, forecast/daily) and include:
-    8. the current temperature,
-    9. the condition description,
-    10. the humidity, and
-    11. a three(3) day temperature forecast.
-    Include an information card about the total number of specialty drinks that the current user has submitted from the Fresh page form. This information should just be stored locally, with the user's agent (in their browser). -->
 </head>
+
 <body>
   <header>
     <div id ="navigation">
-        <a id="logo_link" href="index.html">
+        <a id="logo-link" href="index.html">
             <img class="logo" src="images/BFlogo.webp" alt="Bountiful Foods Logo">
-        </a>
-        <nav id = "primaryNav">
-            <button id="hamburgerBtn">&#9776;</button>
-            <a href="index.html">Home</a>
-            <a href="fresh.html">Fresh</a>
-            <a href="about.html">About Us</a>
-        </nav>
+        </a>    
     </div>
-  </header>
+    <!-- <button id="hamburgerBtn">&#9776;</button> -->
+    <nav id = "primaryNav">
+        <a href="index.html">Home</a>
+        <a href="fresh.html">Fresh</a>
+        <a href="about.html">About Us</a>
+        
+    </nav>
+</header>
   <div id="hero">
     <div id="hero-box">
         <img id="hero-img" src="images/heroimage.webp" alt="Fruit Drinks on the Beach">
@@ -59,19 +49,22 @@
   <main>
     <section id="home-grid">
         <section class="fruit">
-            <img class="card-img" src="i# alt="#">
-            <img class="icon" src="#" alt="#">
-            <h2>Smoothies</h2>
+            <picture>
+                <img class = "card-img" src= "images/placeholder.webp" data-src="images/fruits.webp" alt="fruit">
+            </picture>
+            <h2>Organic and Locally Grown Produce</h2>
         </section>
         <section class="fruit2">
-            <img class="card-img" src="#" alt="#">
-            <img class="icon" src="#" alt="#">
-            <h2>Fruit</h2>
+            <picture>
+                <img class = "card-img" src= "images/placeholder.webp" data-src="images/smoothie.webp" alt="Smoothies">
+            </picture>
+            <h2>Variety of Customizable Smoothies</h2>
         </section>
         <section class="fruit3">
-            <img class="card-img" src="#" alt="#">
-            <img class="icon" src="#" alt="#">
-            <h2>Custom</h2>
+            <picture>
+                <img class = "card-img" src= "images/placeholder.webp" data-src="images.fruits3.webp" alt="Fruit">
+            </picture>
+            <h2>Customizable Fruit Baskets</h2>
         </section>
        
         <section class="weather">
