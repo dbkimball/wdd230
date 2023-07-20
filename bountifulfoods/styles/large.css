@@ -1,3 +1,12 @@
 @media only screen and (min-width: 58em) {
+    #home-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
     
+    }
+    .fruit, .fruit2, .fruit3, .weather, .summary, .map{
+        margin: 5%;
+        max-width: 600px;
+    }
 }

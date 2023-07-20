@@ -76,6 +76,16 @@ nav a:hover{
     background-color:aliceblue;
     color: black;
 }
+.drinks{
+    font-family: 'Poppins';
+    background-color:#ffbf00;
+    color: white;
+    font-weight: bolder;
+    padding: 5%;
+    margin-left: 20%;
+    margin-top: -70%;
+
+}
 main{
     max-width: 90%;
     margin: 5%;
