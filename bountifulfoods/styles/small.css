@@ -34,7 +34,7 @@ nav a:hover{
 #hero-img{
     margin-left: 5%;
     margin-right: 5%;
-    max-height: 80;
+
 }
 #hero-box{
     grid-column: 1/4;
@@ -96,8 +96,8 @@ main{
 .card-img{
     border: 10px solid #2274a5;
     transition: transform .5s;
-    max-height: 500px;
-    max-width: auto;
+    max-height: 400px;
+    max-width: 350px;
 
 }
 .card-img:hover{
