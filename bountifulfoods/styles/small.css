@@ -1,25 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Rock+Salt&display=swap');
 
-:root {
-  
-  --primary-color: #e83f6f   ;
-  --secondary-color: #32936f ;
-  --accent1-color: #ffbf00;
-  --accent2-color: #2274a5;
- 
-  --heading-font: "Rock Salt";
-  --paragraph-font: Poppins, Helvetica, sans-serif;
-  
-  --headline-color-on-white: #32936f;   
-  --headline-color-on-color: white;  
-  --paragraph-color-on-white: #e83f6f; 
-  --paragraph-color-on-color: white; 
-  --paragraph-background-color: #e83f6f;
-  --nav-link-color: white;
-  --nav-background-color: #e83f6f;
-  --nav-hover-link-color: 2274a5;
-  --nav-hover-background-color: #32936f;
-}
 body{
     background-color: white;
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
@@ -29,7 +9,9 @@ body{
 header{
     background-color: #e83f6f;
 }
-
+#logo{
+    padding: 2%;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -48,6 +30,11 @@ nav a:hover{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -50px;
+}
+#hero-img{
+    margin-left: 5%;
+    margin-right: 5%;
+    max-height: 80;
 }
 #hero-box{
     grid-column: 1/4;
@@ -89,7 +76,24 @@ nav a:hover{
     background-color:aliceblue;
     color: black;
 }
+main{
+    max-width: 90%;
+    margin: 5%;
+}
+.fruit, .fruit2, .fruit3{
+    display: block;
 
+}
+.card-img{
+    border: 10px solid #2274a5;
+    transition: transform .10s;
+}
+
+main h2{
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-style: italic;
+}
 footer{
     background-color: #e83f6f;
 }
